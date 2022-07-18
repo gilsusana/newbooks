@@ -10,9 +10,39 @@ function Newbook() {
   const serviceslibary= serviceAxios()
   useEffect(()=>{  
   serviceslibary.create().then(res=>console.log(res))
-},
-[])
+  },[]) 
 
+  /*
+  serviceslibary.get().then(res=>setBooksApi(res.data))
+   
+
+
+/*useEffect(() => {
+  console.log("Loading...");
+  const fetchData = async (id,signatura,titol,autoria,descriptors,isbn,observacions,images) => {
+    try {
+      const { data } = await serviceAxios.post(
+        "http://localhost:5000/books",
+        { id,
+          signatura,
+          titol,
+          autoria,
+          descriptors,
+          isbn,
+          observacions,
+          images,
+        }
+      );
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  fetchData(
+    1,)
+}, []);
+*/
     return(
     <>
    <div className="containerCreate">
@@ -23,31 +53,31 @@ function Newbook() {
           <div className="allInputs">
 
           <div className="inputForm">
-              <input className="tituloForm" type="text" placeholder="Ingrese Signatura"/>
+              <input className="signatura" type="text" placeholder="Ingrese Signatura"/>
             </div>
 
             <div className="inputForm">
-              <input className="tituloForm" type="text" placeholder="Ingrese Título del libro"/>
+              <input className="titol" type="text" placeholder="Ingrese Título del libro"/>
             </div>
       
             <div className="inputForm">
-              <input className="authorForm" type="text" placeholder="Ingrese el Autor"/>
+              <input className="autoria" type="text" placeholder="Ingrese el Autor"/>
             </div>
   
             <div className="inputForm">
-              <input className="editorialForm" type="text" placeholder="Ingrese el descriptor"/>
+              <input className="descriptors" type="text" placeholder="Ingrese el descriptor"/>
             </div>
            
             <div className="inputForm">
-              <input className="yearForm" type="text" placeholder="Ingrese ISBN"/>
+              <input className="ISBN" type="text" placeholder="Ingrese ISBN"/>
             </div>
 
             <div className="inputForm">
-              <input className="yearForm" type="text" placeholder="Ingrese las observaciones"/>
+              <input className="observacions" type="text" placeholder="Ingrese las observaciones"/>
             </div>
   
             <div className="inputForm">
-              <input className="imageForm" type="text" placeholder="Ingrese URL de la imagen de la portada del libro"/>
+              <input className="image" type="text" placeholder="Ingrese URL de la imagen de la portada del libro"/>
             </div>
   
       </div>

@@ -17,7 +17,7 @@ function CardsList() {
         <main className="list-books">
            {
             booksApi.map ((item,index) =>(
-            <CardBook key={index} titol={item.titol} autoria={item.autoria} isbn={item.isbn} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
+            <CardBook key={index} titol={item.titol} autoria={item.autoria} isbn={item.isbn} image={item.image}/>
             ))
            }
         </main>

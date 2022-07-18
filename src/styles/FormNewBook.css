@@ -36,38 +36,45 @@
     
 }
 
-.tituloForm{
+.signatura{
     font-size: medium;
     padding: 10px;
     margin: 3% 5% 1%;
     width: 90%;
 }
-.authorForm{
+.titol{
     font-size: medium;
     padding: 10px;
     margin: 1% 5%;
     width: 90%;
     
 }
-.editorialForm{
+.autoria{
     font-size: medium;
     padding: 10px;
     margin: 1% 5%;
     width: 90%;
 }
-.yearForm{
+.descriptors{
     font-size: medium;
     padding: 10px;
     margin: 1% 5%;
     width: 90%;
 }
-.genreForm{
+.ISBN{
     font-size: medium;
     padding: 10px;
     margin: 1% 5%;
     width: 90%;
 }
-.imageForm{
+.observacions{
+    font-size: medium;
+    padding: 10px;
+    margin: 1% 5%;
+    width: 90%;
+}
+
+.image{
     font-size: medium;
     padding: 10px;
     margin: 1% 5%;

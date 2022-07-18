@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 
 
-function CardBook ({titol, autoria, year, isbn, genre, image, editorial}) {
+function CardBook ({titol, autoria, isbn, image}) {
     return (
 
 <div className='itemBooksContainer'>
