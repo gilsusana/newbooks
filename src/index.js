@@ -3,6 +3,12 @@ import {createRoot} from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Router from './aplications/Router';
+import '../src/styles/Home.css';
+import '../src/styles/BooksPage.css';
+import '../src/styles/DetailsBook.css';
+import '../src/styles/ItemBook.css';
+import '../src/styles/FormNewBook.css';
+
 
 
 const container = document.getElementById('root');

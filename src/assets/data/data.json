@@ -1,60 +1,67 @@
 {
-    "books":[
-      {
-          "signatura": "E-Gen",
-          "titol": "Cartas / Artemisia Gentileschi. Precedidas de las Actas del proceso por estupro / pr\u00f3logo de Estrella de Diego",
-          "autoria": "Gentileschi, Artemisia",
-          "descriptors": "Epistolaris",
-          "isbn": "9788437635286",
-          "observacions": null,
-          "image": "https://images-na.ssl-images-amazon.com/images/I/81xXMXLaCwL.jpg"
-      },
-      {
-          "signatura": "10.04.04 Abd",
-          "titol": "De qu\u00e9 hablamos cuando hablamos de violaci\u00f3n",
-          "autoria": "Abdulal\u00ed, Sohaila",
-          "descriptors": "Violacions/ Delictes sexuals/ V\u00edctimes / Viol\u00e8ncia",
-          "isbn": "9788437640792",
-          "observacions": null,
-          "image":"https://images-na.ssl-images-amazon.com/images/I/41ChOET2JUL._SX342_SY445_QL70_ML2_.jpg"
-      },
-      {
-          "signatura": "B-Abe",
-          "titol": "Miracle \u00e9s viure",
-          "autoria": "Abell\u00f3, Montserrat",
-          "descriptors": "Biografies/ Escriptores/ Poetes/ Poesia",
-          "isbn": "9788415642855",
-          "observacions": null,
-          "image":"https://images-na.ssl-images-amazon.com/images/I/710to9Bwt5L.jpg"
-  
-      },
-      {
-          "signatura": "P-Abe",
-          "titol": "Cares a la finestra: 20 dones poetes de parla anglesa del segle XX",
-          "autoria": "Abell\u00f3, Montserrat",
-          "descriptors": "Poesia/ Poetes",
-          "isbn": "9788481098914",
-          "observacions": "Comanda oct. 21, PR\u00d2LEG",
-          "image":"https://cloud10.todocoleccion.online/libros-segunda-mano-poesia/tc/2013/10/23/39626599.jpg"
-      },
-      {
-          "signatura": "12.08 Fem",
-          "titol": "Feminismo y modernidad en Oriente Pr\u00f3ximo",
-          "autoria": "Abu-Lughod, Lila (Ed.)",
-          "descriptors": "Feminisme/ Islam/ Dones \u00e0rabs/ Multiculturalisme",
-          "isbn": "9788437619958",
-          "observacions": null,
-          "image":"https://www.catedra.com/imagenes/libros/grande/9788437619958-feminismo-y-modernidad-en-oriente-proximo.jpg"
-      },
-      {
-          "signatura": "04.04 Ack",
-          "titol": "Mujeres libres: El anarquismo y la lucha por la emancipaci\u00f3n de las mujeres",
-          "autoria": "Ackelsberg, Martha",
-          "descriptors": "Anarquistes/ Hist\u00f2ria de les dones/ Conflictes b\u00e8l\u00b7lics",
-          "isbn": "9788492559794",
-          "observacions": "Expositor",
-          "image":"https://www.alibri.es/image/cache/covers/e/f/697583-360x480.jpg"
-      }
-    ]
-  }
-  
+  "books": [
+    {
+      "id": 1,
+      "signatura": "E-Gen",
+      "titol": "Cartas / Artemisia Gentileschi. Precedidas de las Actas del proceso por estupro / prólogo de Estrella de Diego",
+      "autoria": "Gentileschi, Artemisia",
+      "descriptors": "Epistolaris",
+      "isbn": "9788437635286",
+      "observacions": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81xXMXLaCwL.jpg"
+    },
+    {
+      "id": 2,
+      "signatura": "10.04.04 Abd",
+      "titol": "De qué hablamos cuando hablamos de violación",
+      "autoria": "Abdulalí, Sohaila",
+      "descriptors": "Violacions/ Delictes sexuals/ Víctimes / Violència",
+      "isbn": "9788437640792",
+      "observacions": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41ChOET2JUL._SX342_SY445_QL70_ML2_.jpg"
+    },
+    {
+      "id": 3,
+      "signatura": "B-Abe",
+      "titol": "Miracle és viure",
+      "autoria": "Abelló, Montserrat",
+      "descriptors": "Biografies/ Escriptores/ Poetes/ Poesia",
+      "isbn": "9788415642855",
+      "observacions": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/710to9Bwt5L.jpg"
+    },
+    {
+      "id": 4,
+      "signatura": "P-Abe",
+      "titol": "Cares a la finestra: 20 dones poetes de parla anglesa del segle XX",
+      "autoria": "Abelló, Montserrat",
+      "descriptors": "Poesia/ Poetes",
+      "isbn": "9788481098914",
+      "observacions": "Comanda oct. 21, PRÒLEG",
+      "image": "https://cloud10.todocoleccion.online/libros-segunda-mano-poesia/tc/2013/10/23/39626599.jpg"
+    },
+    {
+      "id": 5,
+      "signatura": "12.08 Fem",
+      "titol": "Feminismo y modernidad en Oriente Próximo",
+      "autoria": "Abu-Lughod, Lila (Ed.)",
+      "descriptors": "Feminisme/ Islam/ Dones àrabs/ Multiculturalisme",
+      "isbn": "9788437619958",
+      "observacions": null,
+      "image": "https://www.catedra.com/imagenes/libros/grande/9788437619958-feminismo-y-modernidad-en-oriente-proximo.jpg"
+    },
+    {
+      "id": 6,
+      "signatura": "04.04 Ack",
+      "titol": "Mujeres libres: El anarquismo y la lucha por la emancipación de las mujeres",
+      "autoria": "Ackelsberg, Martha",
+      "descriptors": "Anarquistes/ Història de les dones/ Conflictes bèl·lics",
+      "isbn": "9788492559794",
+      "observacions": "Expositor",
+      "image": "https://www.alibri.es/image/cache/covers/e/f/697583-360x480.jpg"
+    },
+    {
+      "id": 7
+    }
+  ]
+}

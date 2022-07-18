@@ -10,7 +10,7 @@ function Header() {
        <h1 className='bar-text'>¡Empodérate leyendo!</h1>
        <ul>
          <li class="var-menu-btn">
-           <Link to='/bookspage'className="nav-link">Enter</Link>
+           <Link to='/bookspage'className="nav-link">Home</Link>
          </li>
          <li className="var-menu-btn">
            <Link to='/newBook' className="nav-link" >Create</Link>
