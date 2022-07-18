@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import ImageBook from "./ImageBook";
+
 
 function CardBook ({titol, autoria, year, isbn, genre, image, editorial}) {
     return (
@@ -7,7 +7,7 @@ function CardBook ({titol, autoria, year, isbn, genre, image, editorial}) {
 <div className='itemBooksContainer'>
       <div className='itemBookSquare'>
           <div className='marcoBookImg'>
-          <ImageBook isbn= {isbn}/>
+            <img src= {image} alt='imagenlibro'/>
           </div>
       <div className="containerInferior">
       <div className='iconContainer'>

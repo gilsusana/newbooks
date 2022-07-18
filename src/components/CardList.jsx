@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import CardBook from "./CardBook";
-import { axios } from 'axios';
 import '../styles/ItemBook.css';  
+import { serviceAxios } from '../services/serviceAxios';
 
 
 function CardsList() {
 
    const [booksApi, setBooksApi] = useState([]);
+   const serviceslibary= serviceAxios()
     useEffect(()=>{  
-       axios.get(" http://localhost:5000/books")
-       .then((response) =>{
-       setBooksApi(response.data)
-       })
+      serviceslibary.get().then(res=>setBooksApi(res.data))
     },[])
 
      

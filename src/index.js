@@ -1,15 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import {createRoot} from 'react-dom/client';
 import './index.css';
-import Enter from './App';
 import reportWebVitals from './reportWebVitals';
+import Router from './aplications/Router';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Enter/>
-  </React.StrictMode>
-);
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<Router/>)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

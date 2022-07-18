@@ -1,9 +1,9 @@
 import React from 'react'
-import Enter from '../assets/img/logo04.png'
+import logoLibrary from '../assets/img/logo04.png'
 import {Link} from 'react-router-dom'
 
 
-function Enter() {
+function Home () {
   return (
     <>
    <div className='homeContainer'>
@@ -14,4 +14,4 @@ function Enter() {
   )
 }
 
-export default Enter
+export default Home

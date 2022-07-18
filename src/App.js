@@ -1,11 +1,12 @@
 import './App.css';
+import Home from './pages/Home';
 
-function Enter() {
+function App() {
   return (
     <div className="App">
-      <Enter/>
+      <Home/>
     </div>
   );
 }
 
-export default Enter;
+export default App;
