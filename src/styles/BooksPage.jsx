@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+.headerContainer{
+    background: #96CDD2;
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0px 0px 40px 40px;  
+}
+
+.list-books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+.logo-libr{
+    width: 400px;
+}
+
+.headerLine li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+}
+
+.headerLine li:hover{
+    color:#FF4352;
+  
+}
+
+.nav-link:hover{
+    color:#FF4352;
+}
+
+.headerLine li a{
+    color:white;
+    text-decoration: none;
+}
+
+.headerLine{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.bar-text{
+    position: absolute;
+    top: 60px;
+    font-size: 210%;
+    color: white;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.dropdown {
+    color:white;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #96CDD2;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

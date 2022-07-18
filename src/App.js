@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+function Enter() {
   return (
     <div className="App">
       <Enter/>
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default Enter;
