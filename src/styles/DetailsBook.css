@@ -5,7 +5,7 @@
 }
 
 .containerTitleDetail {
-    background: #96CDD2;
+    background:purple;
     max-width: 650px;
     width: 100%;
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .containerDetail{
-    background: #cee9ec;
+    background:purple;
     max-width: 950px;
     height: 500px;
     margin: 0 auto;
